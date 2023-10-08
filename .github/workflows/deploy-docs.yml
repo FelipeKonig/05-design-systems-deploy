@@ -20,7 +20,7 @@ jobs:
       - run: npm ci
 
       - run: npm run build
-      - env:
+      env:
         TURBO_TOKEN: CdvvnM6NECblwF0eIyTkCHzP
         TURBO_TEAM: felipe-konig-projects
 
